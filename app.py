@@ -16,7 +16,7 @@ fish_names = ['Black Sea Sprat',
  'Striped Red Mullet',
  'Trout']
 
-model= load_model('C:\Users\aknna\OneDrive\Desktop\FishMe_Image_Clssification\FishMe_Image_Recognition.keras')
+model= load_model('FishMe_Image_Recognition.keras')
 
 def classify_images(image_path):
     input_image = tf.keras.utils.load_img(image_path,target_size=(180,180))
